@@ -19,6 +19,10 @@ position: fixed;
 max-width: inherit;
 width: inherit;
 left: 50%;
+transform: translateX(-50%);
+    top: 0;
+    backdrop-filter: blur(8px);
+    z-index: 1;
 }
 
 
@@ -37,7 +41,15 @@ left: 50%;
 } 
 
 
+.fa-xmark {
+    display: none;
+    color: #FFFFFF;
+    font-size: 32px;
+}
 
+.fa-bars {
+    display: none;
+}
 
 
 .header_a{
@@ -45,7 +57,7 @@ left: 50%;
 font-size: 18px;
 font-weight: 400;
 line-height: 22px;
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #FFFFFF;
 }
 
@@ -104,6 +116,13 @@ line-height: 22px;
     font-weight: 400;
     line-height: 19px;
 }
+/* .Basket_but{width: 24px;
+height: 24px;} */
+
+.Basket_but:hover {
+    scale: 1.11;
+    filter: drop-shadow(1px 1px 3px #FFFFFF);
+}
 
 .header_button:hover {
     border: 1px solid #D5906E;
@@ -123,7 +142,7 @@ line-height: 22px;
 }
 
 /* AFTER HEADER SECTION */
-.afeter_header{background-image: url("../images/cover1.svg");
+.after_header{background-image: url("../images/cover1.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 640px;
@@ -191,3 +210,164 @@ word-wrap: break-word
 
 
 
+/* Start section 2 */
+.section2 {
+    margin-top: 160px;
+    margin-bottom: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+.section2div {
+    display: flex;
+    column-gap: 24px;
+}
+
+.section2text {
+    margin-top: 16px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #B53B1B;
+    text-align: center;
+
+}
+
+/* start gallery section */
+.section3 {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background: #402101;
+}
+
+.section_3_title {
+    margin-bottom: 40px;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.section3maindiv {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.gallerydiv1,
+.gallerydiv2 {
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+
+}
+.section3_pictures:hover {
+    border-radius: 10px;
+    scale: 1.01;
+    box-shadow: 0 0 8px #b6814d;
+}
+
+.section3_pictures {
+    object-fit: cover;
+}
+/* latest profucts section */
+.latest_texts {
+    margin-bottom: 40px;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #402101;
+    text-align: center;
+}
+
+.latest_div {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    justify-content: center;
+}
+
+/* subscrine section */
+.subscribe_div {
+    background-image: url(../images/subscribecover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribeSection {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.subscribe_text {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+
+}
+
+.section5_form_input {
+    display: flex;
+    align-items: center;
+}
+
+
+.section5_form_input {
+    width: 331px;
+    padding: 19px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px 0 0 10px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.section5_form_input::placeholder {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.section5_form_button {
+    width: 151px;
+    padding: 17px 26px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #402101;
+    animation-name: BUTTON;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+}
+
+@keyframes BUTTON {
+    0% {
+        color: inherit;
+        font-weight: inherit;
+    }
+
+    100% {
+        color: #a65831;
+        font-weight: 800;
+    }
+
+}

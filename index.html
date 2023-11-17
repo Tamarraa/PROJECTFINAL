@@ -1,53 +1,118 @@
-DOCTYPE html>
- <html lang="en">
+<DOCTYPE html>
+    <html lang="en">
 
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-     <link rel="stylesheet" href="css/reset.css">
-     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="css/laptop.css">
-     <link rel="stylesheet" href="css/tablet.css">
-     <link rel="stylesheet" href="css/mobile.css">
- </head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/laptop.css">
+        <link rel="stylesheet" href="css/tablet.css">
+        <link rel="stylesheet" href="css/mobile.css">
+    </head>
 
- <body>
-    <!-- start header -->
-    <div class="container1">
-        <header>
-            <nav class="header_nav">
-                <ul class="header_ul">
-                    <li class="headerText"><a href="index.html" class="header_a">Home</a></li>
-                    <li class="headerText"><a href="index.html" class="header_a">Artworks</a></li>
-                    <li class="headerText"><a href="index.html" class="header_a">Contact</a></li>
-                </ul>
+    <body>
+        <!-- start header -->
+        <div class="container1">
+            <header>
+                <i class="fa-solid fa-xmark"></i>
+                <i class="fa-solid fa-bars"></i>
+                <nav class="header_nav">
+                    <ul class="header_ul">
+                        <li class="headerText"><a href="index.html" class="header_a active">Home</a></li>
+                        <li class="headerText"><a href="index.html" class="header_a">Artworks</a></li>
+                        <li class="headerText"><a href="index.html" class="header_a">Contact</a></li>
+                    </ul>
 
-            </nav>
-            <div class="title_div">
-                <a href="index.html"><img src="images/logoN1.svg" alt="logo, earthly" class="logo1"></a>
-                <a href="index.html"><img src="images/logoN2.svg" alt="logo, artisry" class="logo2"></a>
-            </div>
-            <div class="header_div">
-                <button class="signInbutton">sign in</button>
-                <img src="images/signin.svg" alt="">
-            </div>
-        </header>
+                </nav>
+                <div class="title_div">
+                    <a href="index.html"><img src="images/logoN1.svg" alt="logo, earthly" class="logo1"></a>
+                    <a href="index.html"><img src="images/logoN2.svg" alt="logo, artisry" class="logo2"></a>
+                </div>
+                <div class="header_div">
+                    <button class="signInbutton">sign in</button>
+                    <i class="Basket_but"><img src="images/basket.svg" alt=""></i>
+                </div>
+            </header>
 
-        <!-- AFTER HEADER SECTION -->
+            <!-- AFTER HEADER SECTION -->
 
-        <section class="after_header">
-            <div class="section1Div">
-            <p class="section1text">Earth, Water, Air and Fire</p>
-            <p class="section1text2">Pottery is an ancient craft, with the earliest historical records of wheel-thrown
-                pottery dating back to 4000 B.C. in Egypt and 3000 B.C. in China. In this article, I’ll talk about how
-                wheel-thrown pottery developed and was refined as a craft and will discuss glazes and types of clay.</p>
-            <button class="section1button">
-                <p class="button1text">Shop Now</p>
-            </button>
+            <section class="after_header">
+                <div class="section1Div">
+                    <p class="section1text">Earth, Water, Air and Fire</p>
+                    <p class="section1text2">Pottery is an ancient craft, with the earliest historical records of
+                        wheel-thrown
+                        pottery dating back to 4000 B.C. in Egypt and 3000 B.C. in China. In this article, I’ll talk
+                        about how
+                        wheel-thrown pottery developed and was refined as a craft and will discuss glazes and types of
+                        clay.</p>
+                    <button class="section1button">
+                        <p class="button1text">Shop Now</p>
+                    </button>
+                </div>
+            </section>
+            <!-- start section 2 -->
+            <section class="section2">
+                <div class="section2div">
+                    <img src="images/1.svg" alt="">
+                    <p class="section2text"> Pottery Classes</p>
+                </div>
+                <div class="section2div"> <img src="images/2.svg" alt="">
+                    <p class="section2text"> Design Process</p>
+                </div>
+                <div class="section2div"> <img src="images/3..svg" alt="">
+                    <p class="section2text"> Gift Pottery</p>
+                </div>
+                <div class="section2div">
+                    <img src="images/4.svg" alt="">
+                    <p class="section2text"> Ceramic Painting</p>
+            </section>
+            <!-- start gallery section -->
+            <section class="section3">
+                <h2 class="section_3_title">Our Gallery</h2>
+                <div class="section3maindiv">
+                    <div class="gallerydiv1">
+                        <img src="images/gallery1.svg" alt="">
+                        <img src="images/gallery4.svg" alt="">
+                    </div>
+
+                    <div class="gallerydiv2">
+                        <img src="images/gallery2.svg" alt="">
+                        <img src="images/gallery3.svg" alt="">
+                        <img src="images/gallery5.svg" alt="">
+                    </div>
+            </section>
+        
+             <!-- latest products sections -->
+
+     <section class="latestProducts">
+        <p class="latest_texts">
+            Latest Products
+        </p>
+        <div class="latest_div">
+            <img src="images/latest1.svg" alt="">
+            <img src="images/latest2.svg" alt="">
+            <img src="images/latest3.svg" alt="">
+            <img src="images/latest4.svg" alt="">
+        </div>
+     </section>
+      <!-- subscribe section -->
+
+      <section class="subscribe_div">
+        <div class="subscribeSection">
+            <h2 class="subscribe_text">Subscribe to Newsletter</h2>
+            <form class="section5_form">
+                <input type="email" placeholder="Email Address" name="Email" class="section5_form_input">
+                <button type="submit" class="section5_form_button">SUBSCRIBE</button>
+            </form>
         </div>
     </section>
 
 
 
- </body>
+
+
+
+
+    </body>
