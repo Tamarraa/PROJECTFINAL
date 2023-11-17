@@ -1,0 +1,48 @@
+header {
+    padding: 9px 24px;
+}
+
+.header_nav {
+    top: 93px;
+}
+.title_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoN1{
+    width: 113px;
+    height: 39px;
+}
+
+.logoN2 {
+    margin-top: -8px;
+    margin-left: 0;
+    width: 101px;
+    height: 39px;
+}
+.latestProducts {
+    padding-inline: 24px;
+}
+footer {
+    padding: 24px;
+}
+.artwork_shop_section {
+    margin-inline: 24px;
+}
+
+.arwork_shop_title {
+    font-size: 24px;
+
+}
+.contact_section {
+    padding-inline: 24px;
+}
+
+.contact_section_main_div {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}

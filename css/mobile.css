@@ -1,0 +1,16 @@
+header {
+    padding-inline: 16px;
+}
+.logoN1 {
+    width: 87px;
+    height: 44px;
+}
+
+.logoN2 {
+    margin-top: -20px;
+    width: 76px;
+    height: 44px;
+}
+.title_div {
+    column-gap: 8px;
+}

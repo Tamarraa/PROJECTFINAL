@@ -538,3 +538,346 @@ footer {
     color: #FFFFFF;
 
 }
+
+
+
+
+/* START ARTWORKS */
+
+.artwork_background {
+    background-image: url(../images/kkkkk.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+}
+
+.artwork_background_div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.artwork_background_title {
+    margin-bottom: 47px;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.artwork_form {
+    display: flex;
+}
+
+.artwork_form_input {
+    width: 408px;
+    padding: 16px;
+    outline: none;
+    border: 2px solid #D5906E;
+    border-radius: 10px 0 0 10px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.artwork_form_input::placeholder {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(213, 144, 110, 0.52);
+
+}
+
+.artwork_background_button {
+    width: 180px;
+    padding: 15px 53px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background-color: #D5906E;
+    color: #FFFFFF;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+
+}
+
+.artwork_background_button:hover {
+    color: #402101;
+    font-weight: 800;
+}
+
+/* Artwork shop section */
+
+.artwork_shop_section {
+    margin-top: 160px;
+    margin-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artwork_shop_top_div {
+    margin-bottom: 72px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.arwork_shop_title {
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #623932;
+
+}
+
+.shop_cards_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.shop_cards:hover {
+    scale: 1.065;
+
+}
+
+.imag {
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.artwork_shop_button {
+    padding: 8px 21px;
+    border: 2px solid #B53B1B;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    background-color: transparent;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #402101;
+
+}
+.artwork_shop_button:hover {
+    scale: 1.06;
+}
+
+.shop_cards_text {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #B53B1B;
+
+}
+.shop_cards_price_div {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.shop_cards_price {
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #402101;
+
+}
+
+.fa-cart-plus {
+    padding: 6.67px;
+    font-size: 26.67px;
+    border-radius: 5px;
+    background: rgba(213, 144, 110, 0.3);
+    color: #402101;
+}
+
+.fa-cart-plus:hover {
+    box-shadow: 0 0 5px #623932;
+}
+
+.artwork_shop_pages {
+    margin-top: 96px;
+    display: flex;
+}
+.artwork_shop_page_numbers {
+    width: 56px;
+    height: 56px;
+    border: 2px solid #B53B1B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #402101;
+
+}
+.active3 {
+    background-color: #B53B1B;
+    color: #FFFFFF;
+}
+
+.contact_background_image_section {
+    height: 720px;
+height: 720px;
+background-image: url(../images/lastcover.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.contact_form {
+position: absolute;
+top: 208px;
+left: 222px;
+padding: 24px 30px;
+display: flex;
+flex-direction: column;
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+background: rgba(64, 33, 1, 0.73);
+box-shadow: -1px -1px 4px 0px rgba(255, 255, 255, 1);
+
+}
+
+.contact_form_title {
+margin-bottom: 40px;
+font-family: Inter, sans-serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 48px;
+color: #FFFFFF;
+}
+
+.fullname_and_email_form_div {
+display: flex;
+column-gap: 60px;
+}
+
+.fullname_and_email {
+padding: 12px 0 12px 8px;
+border: 2px solid rgba(255, 255, 255, 1);
+border-radius: 10px;
+outline: none;
+background-color: transparent;
+color: #FFFFFF;
+}
+
+.fullname_and_email::placeholder {
+font-family: Inter, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+color: rgba(255, 255, 255, 0.76);
+}
+
+.contact_textarea {
+margin-top: 36px;
+margin-bottom: 36px;
+padding: 8px 0 71px 8px;
+border: 2px solid rgba(255, 255, 255, 1);
+border-radius: 10px;
+outline: none;
+background-color: transparent;
+color: #FFFFFF;
+}
+
+.contact_textarea::placeholder {
+font-family: Inter, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+color: rgba(255, 255, 255, 0.76);
+}
+
+.contact_form_button {
+width: 147px;
+padding: 19px 42px;
+border: none;
+border-radius: 10px;
+background: rgba(213, 144, 110, 1);
+font-family: Inter, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.contact_form_button:hover {
+color: #402101;
+font-weight: 800;
+scale: 1.06;
+}
+
+
+/*  */
+.contact_section {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: center;
+}
+.contact_section_main_div {
+    padding-left: 20px;
+    background-color: rgba(213, 144, 110, 0.3);
+}
+.contact_title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #402101;
+
+}
+.adress_div_titles {
+    margin-bottom: 7px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #B53B1B;
+
+}
+.adress_main_div {
+    display: flex;
+    column-gap: 210px;
+}
+
+.adress_text {
+    margin-bottom: 32px;
+}
+
+.adress {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    color: #623932;
+
+}
+
+iframe {
+    width: 815px;
+    height: 320px;
+}
